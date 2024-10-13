@@ -2,8 +2,8 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import Banner from "../Layout/Banner";
 import HomeServices from "../Layout/HomeServices";
-import Peodu from "./Peodu";
 import HomeAbout from "../Layout/HomeAbout";
+import ClientsOP from "../Layout/ClientsOP";
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       <Banner />
       <HomeServices />
       <HomeAbout/>
+      <ClientsOP/>
     </Layout>
   );
 };
