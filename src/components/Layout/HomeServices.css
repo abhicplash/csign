@@ -1,0 +1,57 @@
+.HSWrapper {
+  width: 100%;
+  min-height: 50vh;
+  text-align: center;
+  padding-top: 8rem ;
+}
+.hshead {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+.HomeServices-container {
+  padding: 3rem 0;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  width: 9rem;
+  /* height: 14rem; */
+  /* border: 1px solid; */
+  box-shadow: 0.5px 0.5px 1px 1px var(--lightblue);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-bottom: 4px solid var(--blue);
+  gap: 8px;
+  color: var(--black);
+}
+.icon-service {
+  font-size: 3.5rem;
+}
+.servicename {
+  font-size: 1.5rem;
+}
+.servicedetails {
+  font-size: 0.8rem;
+}
+.icon-service {
+  color: var(--blue);
+}
+.serviceCard:hover  .icon-service {
+  color: #fff;
+}
+.serviceCard:hover {
+  background-color: var(--blue);
+  color: #fff;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+/* .servicename,
+.servicedetails {
+  color: var(--black);
+} */
