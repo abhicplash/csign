@@ -1,0 +1,98 @@
+.Habout-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--blue);
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.laphaboutimg {
+  width: 35rem;
+  height: 32rem;
+  border-radius: 100%;
+  box-shadow: 15px -15px 1px 1px #e5e7f96e;
+}
+.HA-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  text-transform: capitalize;
+}
+.steps {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-transform: capitalize;
+  color: var(--white);
+}
+.number {
+  background-color: #3d4ca0;
+  /* color: var(--white); */
+  border-radius: 100%;
+  padding: 1rem;
+  font-weight: 900;
+}
+.HA-details-wrapper .heading {
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--white);
+  font-size: 1.8rem;
+}
+.HA-pattern {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.ha-btnwrapper {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.ha-btn {
+  background-color: #fff;
+  color: var(--blue);
+  border-radius: 5px;
+  width: 10rem;
+  height: 2.5rem;
+  font-family: inherit;
+  font-weight: 600;
+  outline-color: var(--blue);
+}
+.ha-btn:hover {
+  background-color: transparent;
+  border-color: var(--white);
+  outline-color: var(--white);
+  color: var(--white);
+}
+.HA-details-wrapper p {
+  width: 30rem;
+}
+
+@media (max-width: 468px) {
+  .HA-details-wrapper p {
+    width: 90%;
+  }
+  .HA-details-wrapper {
+    text-align: center;
+  }
+  .ha-btnwrapper {
+    flex-direction: column;
+  }
+  .HA-details-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .Habout-container {
+    padding: 2rem 0;
+  }
+  .Habout-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .laphaboutimg {
+    width: 17rem;
+    height: 15.6rem;
+  }
+}
