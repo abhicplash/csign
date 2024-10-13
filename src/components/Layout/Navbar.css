@@ -54,6 +54,7 @@
   border-color: var(--black);
 }
 @media (max-width: 768px) {
+  
   .navbar-container {
     height: 9vh;
     
@@ -62,6 +63,7 @@
     display: flex;
     cursor: pointer;
     font-size: 2rem;
+    background-color: #ffffffb7;
   }
   .list-large {
     display: none;
