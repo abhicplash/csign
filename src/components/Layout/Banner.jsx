@@ -10,13 +10,19 @@ const Banner = () => {
       </div>
       <div className="banner-details">
         <span className="heading">
-          we create <br /> solutions <b>for <br /> your business</b>
+          we create <br /> solutions{" "}
+          <b>
+            for <br /> your business
+          </b>
         </span>
         <span className="para">
           Unlock Your Brand's Potential with Creative Signature Advertisement,
           Sharjah & Dubai's Leading Advertising Agency
         </span>
-        <button className="banner-btn">Get started</button>
+        <div className="btnwrapper">
+          <button className="banner-btn">Get started</button>
+          <button className="banner-btn">Request a Demo</button>
+        </div>
       </div>
     </div>
   );

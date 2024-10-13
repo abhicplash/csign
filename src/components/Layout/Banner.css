@@ -10,7 +10,7 @@
   /* overflow-x: hidden; */
   /* border: 1px solid; */
 }
-.para{
+.para {
   width: 25rem;
 }
 .banner-img {
@@ -25,13 +25,17 @@
   /* text-align: center; */
   display: flex;
   flex-direction: column;
-  
+
   gap: 1.2rem;
 }
 .heading {
   font-size: 2rem;
   text-transform: capitalize;
   color: var(--blue);
+}
+.btnwrapper {
+  display: flex;
+  gap: 1rem;
 }
 .banner-btn {
   width: 10rem;
@@ -44,6 +48,9 @@
   cursor: pointer;
 }
 @media (max-width: 768px) {
+  .btnwrapper {
+    flex-direction: column;
+  }
   .banner-container {
     gap: 2rem;
     flex-direction: column;
@@ -51,7 +58,7 @@
     justify-content: start;
     align-items: center;
   }
-  .para{
+  .para {
     width: 90%;
   }
   .banner-details {
