@@ -6,6 +6,7 @@
   justify-content: space-around;
   position: absolute;
   top: 0;
+  
 }
 .navlogo {
   height: 7vh;
@@ -57,6 +58,7 @@
   
   .navbar-container {
     height: 9vh;
+    background-color: #ffffff7b;
     
   }
   .nav-icon {
