@@ -6,7 +6,7 @@
   justify-content: space-around;
   position: absolute;
   top: 0;
-  
+  z-index: 120;
 }
 .navlogo {
   height: 7vh;
@@ -28,8 +28,8 @@
   text-transform: capitalize;
 }
 .list-large li a:hover {
- color: rgb(6, 6, 75);
- /* text-decoration: underline; */
+  color: rgb(6, 6, 75);
+  /* text-decoration: underline; */
 }
 .list-mob a {
   text-decoration: none;
@@ -55,17 +55,15 @@
   border-color: var(--black);
 }
 @media (max-width: 768px) {
-  
   .navbar-container {
     height: 9vh;
     background-color: #ffffff7b;
-    
   }
   .nav-icon {
     display: flex;
     cursor: pointer;
     font-size: 2rem;
-    background-color: #ffffffb7;
+    background-color: #ffffff2c;
   }
   .list-large {
     display: none;

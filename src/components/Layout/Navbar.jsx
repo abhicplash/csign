@@ -8,7 +8,9 @@ const Navbar = () => {
   const [view, setView] = useState(false);
   return (
     <div className="navbar-container">
-      <img src={logo} alt="creative" className="navlogo" />
+      <Link to={"/"}>
+        <img src={logo} alt="creative" className="navlogo" />
+      </Link>
       <HiBars3BottomLeft
         className="nav-icon"
         onClick={() => {

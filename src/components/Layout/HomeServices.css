@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 50vh;
   text-align: center;
-  padding-top: 8rem ;
+  padding-top: 2.rem ;
 }
 .hshead {
   font-size: 2rem;
@@ -21,7 +21,8 @@
   display: flex;
   flex-direction: column;
   width: 9rem;
-  /* height: 14rem; */
+
+  height: 12rem;
   /* border: 1px solid; */
   box-shadow: 0.5px 0.5px 1px 1px var(--lightblue);
   padding: 1.5rem;
@@ -29,6 +30,7 @@
   border-bottom: 4px solid var(--blue);
   gap: 8px;
   color: var(--black);
+  background-color: #fff;
 }
 .icon-service {
   font-size: 3.5rem;
@@ -50,6 +52,7 @@
   color: #fff;
   transition-duration: 0.5s;
   cursor: pointer;
+  /* border-color: #fff; */
 }
 /* .servicename,
 .servicedetails {

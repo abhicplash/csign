@@ -1,0 +1,11 @@
+.AboutService-wrapper {
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--black);
+  background-color: var(--lightblue);
+}
+.AboutService-wrapper h4 {
+  font-weight: 400;
+  color: var(--blue);
+  text-transform: uppercase;
+}

@@ -1,0 +1,16 @@
+.AboutBanner-wraper {
+  width: 100%;
+  height: 50vh;
+  background: url("../../assets/about/homeabout.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue);
+}
+
+.AboutBanner-wraper h1 {
+  position: relative;
+  z-index: 100;
+}
