@@ -5,15 +5,15 @@
 }
 .Page-top {
   width: 100%;
-  height: 60vh;
-  background: url("../../assets/Banner/banner.jpg");
+  height: 50vh;
+  background: url("../../assets/about/homeabout.jpg ");
   background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--blue);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .contact-details h4 {
   color: var(--blue);
@@ -27,7 +27,8 @@
 .contact-details h2 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: var(--blue);
 }
 .contact-icons {
   display: flex;
@@ -67,6 +68,7 @@
 .contact-details a {
   text-decoration: underline;
   color: var(--blue);
+  font-size: 0.75rem;
 }
 .contact-information {
   display: flex;
@@ -125,7 +127,7 @@
     height: 8rem;
   }
   .contact-form input {
-    height: 2.5rem;
+    height: 2rem;
     width: 15rem;
   }
   .contact-map {

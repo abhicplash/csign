@@ -4,6 +4,7 @@ import footerlogo from "../../assets/logo/footer.png";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -35,12 +36,20 @@ const Footer = () => {
         </span>
       </div>
       <div className="footer-logo">
-        <span className="foot-head">contact us</span>
+        <span className="foot-head">Quick Links</span>
         <span className="foot-list">
-          <span>+971-542411778</span>
-          <span>+971-504339252</span>
-          <span>+971-509460604</span>
-          <span>+971-581944089</span>
+          <Link to={"/"}>
+            <span>home</span>
+          </Link>
+          <Link to={"/about"}>
+            <span>About us</span>
+          </Link>{" "}
+          <Link to={"/services"}>
+            <span>services</span>
+          </Link>{" "}
+          <Link to={"/contact"}>
+            <span>contact us</span>
+          </Link>
         </span>
       </div>
     </div>

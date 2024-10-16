@@ -4,6 +4,7 @@ import { IoLogoBuffer } from "react-icons/io";
 import { FaCarRear } from "react-icons/fa6";
 import { IoShirtSharp } from "react-icons/io5";
 import { FaBeerMugEmpty } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const HomeServices = () => {
   const homeserviceList = [
@@ -57,6 +58,7 @@ const HomeServices = () => {
           </div>
         )}
       </div>
+      <Link to={"/services"}>More Services</Link>
     </div>
   );
 };

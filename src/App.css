@@ -1,0 +1,11 @@
+.servicepage-top {
+  width: 100%;
+  height: 50vh;
+  background: url("./assets/about/homeabout.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+}

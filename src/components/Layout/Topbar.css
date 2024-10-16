@@ -1,0 +1,23 @@
+.top-wrarper {
+  position: relative;
+  height: 6vh;
+  width: 100%;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 0.6rem;
+}
+.icontb {
+    color: var(--white);
+}
+.icontb:hover{
+    color: #fff;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+  .top-wrarper {
+    display: none;
+  }
+}
