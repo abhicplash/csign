@@ -8,7 +8,7 @@ const ClientsOP = () => {
     <div className="op-container">
       <h1 className="customer-head">customer reviews</h1>
       <h3>
-        what our customer saying about <br /> <b> Creative Signature </b> advertisement{" "}
+        what our customer say about <br /> <b> Creative Signature </b> advertisement{" "}
       </h3>
       <div className="ClientsOP-container">
         {opinionList.map((list, index) =>
