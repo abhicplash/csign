@@ -4,7 +4,7 @@ import './AboutBanner.css'
 const AboutBanner = () => {
   return (
     <div className="AboutBanner-wraper">
-        <h1>About us</h1>
+        <h1>About Us</h1>
     </div>
   )
   

@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   color: var(--blue);
-  font-size: 1.3rem;
+  /* font-size: 0.5rem; */
 }
 .contact-details h4 {
   color: var(--blue);
