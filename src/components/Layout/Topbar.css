@@ -42,9 +42,15 @@
   cursor: pointer;
 }
 .mobile-wrapper {
-  display: none;
+  /* display: none; */
+  position: fixed;
+  right: 0.2rem;
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-.iconmb{
+.iconmb {
   font-size: 2rem;
   border-radius: 100%;
   padding: 2px;
@@ -60,14 +66,9 @@
     display: none;
   }
   .mobile-wrapper {
-    display: flex;
-    flex-direction: column;
     color: red;
-    position: fixed;
-    right: 0.2rem;
-    top: 20rem;
+
     z-index: 150;
-    gap: 0.5rem;
     /* background-color: #324cbf; */
   }
 }
