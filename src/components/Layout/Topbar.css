@@ -44,8 +44,8 @@
 .mobile-wrapper {
   /* display: none; */
   position: fixed;
-  right: 0.2rem;
-  bottom: 0.2rem;
+  right: 1rem;
+  bottom: 3rem;
   /* top: 20rem; */
   display: flex;
   flex-direction: column;
@@ -55,10 +55,12 @@
   font-size: 2rem;
   border-radius: 100%;
   padding: 2px;
-  background-color: #e5e7f98a;
+  background-color: #e5e7f9ed;
   color: var(--blue);
-  border: 3px solid var(--blue);
+  border: 3.5px solid var(--blue);
+  cursor: pointer;
 }
+
 @media (max-width: 768px) {
   .top-wrarper {
     display: none;

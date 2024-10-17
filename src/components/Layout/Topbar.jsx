@@ -5,6 +5,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { MdLocalPhone } from "react-icons/md";
+import { PiEnvelopeLight } from "react-icons/pi";
+import UpTop from "./UpTop";
 
 const Topbar = () => {
   return (
@@ -22,10 +24,15 @@ const Topbar = () => {
       </div>
       <div className="mobile-wrapper">
         <a href="tel:+971-542411778">
+          <MdLocalPhone className="iconmb" />
+        </a>
+        <a href="mailto:info@creativesignatureadvertisement.com">
+          <PiEnvelopeLight className="iconmb" />
+        </a>
+        <a href="https://wa.me/+918547606322?text=Let me know more about Creative Signature Advertisement">
           <FaWhatsapp className="iconmb" />
         </a>
-        <FaInstagram className="iconmb" />
-        <MdLocalPhone className="iconmb" />
+        <UpTop />
       </div>
     </div>
   );

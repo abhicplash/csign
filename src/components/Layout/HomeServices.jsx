@@ -10,39 +10,44 @@ const HomeServices = () => {
   const homeserviceList = [
     {
       icon: <IoLogoBuffer />,
-      name: "Flyers",
+      name: "Flyers and Brochures",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sint"
+        "Create eye-catching flyers and informative brochures that effectively communicate your message and capture your audience’s attention"
     },
     {
       icon: <FaCarRear />,
 
-      name: "Vehicle Sticker",
+      name: "Signage Solutions",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sint"
+        "Increase your visibility with our custom sign boards and vehicle stickers, designed to attract attention and promote your business effectively."
     },
     {
       icon: <IoShirtSharp />,
 
-      name: "T Shirt Printing",
+      name: "Custom T-Shirt Printing",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sint"
+        "Promote your brand with our stylish T-shirt printing services, perfect for events, promotions, or personal use."
     },
     {
       icon: <FaBeerMugEmpty />,
 
-      name: "Mug Printing",
+      name: "Mug Printing and More",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sint"
+        "Explore our additional offerings, including mug printing, lamination services, certificate printing, and unique memento works that add a personal touch to your special occasions"
     }
   ];
 
   return (
     <div className="HSWrapper">
-      <span className="hshead">
-        we Provide the <b>best services </b>
-      </span>
-
+      <span className="hshead">Why Choose Us?</span>
+      <p className="para-why">
+        Our mission is to provide high-quality custom printing that stands out
+        in today’s competitive market. With years of experience in the industry,
+        we have built a reputation for delivering exceptional results that
+        exceed our clients’ expectations. Our dedicated team of experts utilizes
+        the latest technology and top-notch materials to ensure that your
+        projects not only look great but also reflect your unique vision.
+      </p>
       <div className="HomeServices-container">
         {homeserviceList.map((list, index) =>
           <div className="serviceCard" key={index}>
@@ -58,7 +63,7 @@ const HomeServices = () => {
           </div>
         )}
       </div>
-      <Link to={"/services"}>More Services</Link>
+      <Link to={"/services"}>Explore More</Link>
     </div>
   );
 };

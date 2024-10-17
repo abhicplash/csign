@@ -1,6 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import banner from "../../assets/Banner/banner.jpg";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -10,18 +11,24 @@ const Banner = () => {
       </div>
       <div className="banner-details">
         <span className="heading">
-          we create <br /> solutions{" "}
-          <b>
-            for <br /> your business
-          </b>
+          Welcome to <br /> <b>Creative Signature</b> <br />
+          Advertisement
         </span>
         <span className="para">
-          Unlock Your Brand's Potential with Creative Signature Advertisement,
-          Sharjah & Dubai's Leading Advertising Agency
+          At <b>Creative Signature </b>
+          Advertisement, we specialize in turning your ideas into stunning
+          visual realities through our comprehensive range of printing services
+          and design solutions. Whether you’re a business looking to enhance
+          your brand identity or an individual seeking custom products, we are
+          here to help you every step of the way.
         </span>
         <div className="btnwrapper">
-          <button className="banner-btn">Get started</button>
-          <button className="banner-btn">Request a Demo</button>
+          <Link to={"/services"}>
+            <button className="banner-btn">Get started</button>
+          </Link>
+          <Link to={"/contact"}>
+            <button className="banner-btn">Request a Demo</button>
+          </Link>
         </div>
       </div>
     </div>

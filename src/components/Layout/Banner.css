@@ -12,7 +12,7 @@
   /* border: 1px solid; */
 }
 .para {
-  width: 25rem;
+  width: 28rem;
 }
 .banner-img {
   width: 38rem;
@@ -48,6 +48,7 @@
   color: var(--lightblue);
   cursor: pointer;
 }
+
 @media (max-width: 768px) {
   .btnwrapper {
     flex-direction: column;
@@ -61,7 +62,7 @@
     padding-bottom: 2rem;
   }
   .para {
-    width: 90%;
+    width: 97%;
   }
   .banner-details {
     text-align: center;

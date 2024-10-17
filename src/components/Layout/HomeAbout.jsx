@@ -4,6 +4,7 @@ import lap from "../../assets/habout/lap.jpg";
 import { RiNumber1 } from "react-icons/ri";
 import { RiNumber3 } from "react-icons/ri";
 import { RiNumber2 } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
@@ -14,9 +15,11 @@ const HomeAbout = () => {
       <div className="HA-details-wrapper">
         <span className="heading">simple solutions!</span>
         <p>
-          At creative signature, we craft compelling stories that drive results.
-          Our expert team leverages data-driven insights and creative flair.
-          Transforming brands through bold & effective advertising.
+          At Creative Signature Advertisement, we are committed to providing you
+          with a customer-centric approach that focuses on understanding your
+          specific needs and delivering personalized solutions. Our goal is to
+          help you achieve your branding objectives through high-quality prints
+          that stand out.
         </p>
         <div className="HA-pattern">
           <div className="steps">
@@ -30,8 +33,9 @@ const HomeAbout = () => {
           </div>
         </div>
         <div className="ha-btnwrapper">
-          <button className="ha-btn">Get started</button>
-          <button className="ha-btn">Request a Demo</button>
+          <Link to={"/contact"}>
+            <button className="ha-btn">Request a Demo</button>
+          </Link>
         </div>
       </div>
     </div>

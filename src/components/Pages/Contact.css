@@ -13,21 +13,30 @@
   align-items: center;
   justify-content: center;
   color: var(--blue);
+  text-align: center;
   /* font-size: 0.5rem; */
+  font-weight: 300;
 }
 .contact-details h4 {
   color: var(--blue);
   text-transform: uppercase;
   text-align: center;
+  font-size: 1.3rem;
   /* text-decoration: underline; */
 }
 .contact-details {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.contact-details h2 {
-  text-transform: uppercase;
+.contact-details p {
+  /* text-transform: uppercase; */
   text-align: center;
-  font-size: 2rem;
+  width: 80%;
+  font-size: 1rem;
+  font-weight: 300;
   color: var(--blue);
 }
 .contact-icons {
@@ -112,11 +121,14 @@
   justify-content: center;
   align-items: center;
 }
-.contact-map{
-    width:49rem;
-    height: 20rem;
+.contact-map {
+  width: 49rem;
+  height: 20rem;
 }
 @media (max-width: 768px) {
+  .contact-details p {
+    width: 95%;
+  }
   .contact-information {
     flex-direction: column-reverse;
     gap: 3rem;

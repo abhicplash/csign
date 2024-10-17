@@ -2,7 +2,10 @@
   width: 100%;
   min-height: 50vh;
   text-align: center;
-  padding: 2rem 0 ;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hshead {
   font-size: 2rem;
@@ -20,9 +23,9 @@
 .serviceCard {
   display: flex;
   flex-direction: column;
-  width: 9rem;
+  width: 11rem;
 
-  height: 12rem;
+  height: 15rem;
   /* border: 1px solid; */
   box-shadow: 0.5px 0.5px 1px 1px var(--lightblue);
   padding: 1.5rem;
@@ -36,7 +39,7 @@
   font-size: 3.5rem;
 }
 .servicename {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .servicedetails {
   font-size: 0.8rem;
@@ -54,7 +57,16 @@
   cursor: pointer;
   /* border-color: #fff; */
 }
+.para-why {
+  width: 80%;
+  color: var(--black);
+}
 /* .servicename,
 .servicedetails {
   color: var(--black);
 } */
+@media (max-width: 768px) {
+  .para-why {
+    width: 97%;
+  }
+}

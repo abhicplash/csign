@@ -8,7 +8,6 @@ const AboutService = () => {
     <div className="AboutService-wrapper">
       <h4>Our services</h4>
       <HomeServices />
-      <Link to={"/services"}>More Services</Link>
     </div>
   );
 };
