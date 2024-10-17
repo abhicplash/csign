@@ -3,7 +3,7 @@ import "./Topbar.css";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhoneSquareAlt } from "react-icons/fa";
-import { FaWhatsappSquare } from "react-icons/fa";
+// import { FaWhatsappSquare } from "react-icons/fa";
 import { MdLocalPhone } from "react-icons/md";
 import { PiEnvelopeLight } from "react-icons/pi";
 import UpTop from "./UpTop";
