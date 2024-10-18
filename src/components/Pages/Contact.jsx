@@ -1,8 +1,13 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import "./Contact.css";
-import { FaPhoneAlt } from "react-icons/fa";
+// import { FaPhoneAlt } from "react-icons/fa";
 // import { GiEnvelope } from "react-icons/gi";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -22,14 +27,46 @@ const Contact = () => {
             professionals is ready to assist you in achieving your branding and
             marketing goals.
           </p>
-          Mail-{" "}
-          <a href="mailto:info@creativesignatureadvertisement.com">
+          {/* Mail-{" "} */}
+          {/* <a href="mailto:info@creativesignatureadvertisement.com">
             info@creativesignatureadvertisement.com
-          </a>
+          </a> */}
         </div>
         <div className="contact-information">
-          <div className="contact-icons">
-            {/* <h4>information</h4> */}
+          <div className="contactpage-new-wrapper">
+            <div className="cn-details">
+              <span className="cnhead">Address</span>
+              <span className="cn-details-info">Muweilah Sharjah</span>
+              <span className="cn-details-info">UAE</span>
+            </div>{" "}
+            <div className="cn-details">
+              <span className="cnhead">Contact</span>
+              <span className="cn-details-info">+971 542411778</span>
+              <span className="cn-details-info">+971 504339252</span>
+              <span className="cn-details-info">+971 509460604</span>
+              <span className="cn-details-info">+971 581944089</span>
+            </div>{" "}
+            <div className="cn-details">
+              <span className="cnhead">Opening Time</span>
+              <span className="cn-details-info">
+                Monday-Friday :9 AM - 6 PM
+              </span>
+              <span className="cn-details-info">
+                Saturday-Sunday :9 AM - 5 PM
+              </span>
+            </div>
+            <div className="cn-details">
+              <span className="cnhead">Stay Connected</span>
+              <div className="cn-icons">
+                <FaFacebook  className="cn-s-icon"/>
+                <FaInstagram className="cn-s-icon"/>
+                <FaXTwitter className="cn-s-icon"/>
+                <FaYoutube className="cn-s-icon"/>
+                <FaTelegram className="cn-s-icon"/>
+              </div>
+            </div>
+          </div>
+          {/* <div className="contact-icons">
 
             <div className="contact-info">
               <FaPhoneAlt className="icon" />
@@ -47,7 +84,7 @@ const Contact = () => {
               <FaPhoneAlt className="icon" />
               +971-581944089
             </div>
-          </div>
+          </div> */}
           <div className="contact-form">
             <input type="text" placeholder=" Enter Your Name " />
             <input type="text" placeholder=" Enter Your Number" />

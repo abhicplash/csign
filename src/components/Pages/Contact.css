@@ -81,6 +81,7 @@
 }
 .contact-information {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   gap: 8rem;
@@ -124,6 +125,47 @@
 .contact-map {
   width: 49rem;
   height: 20rem;
+}
+.contactpage-new-wrapper {
+  width: 16rem;
+  height: 58vh;
+  background-color: var(--blue);
+  border-radius: 15px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 1rem;
+}
+.cn-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.cnhead {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.cn-details-info {
+  font-size: 0.9rem;
+}
+.cn-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+ margin-top: 10px; 
+}
+.cn-s-icon {
+  font-size: 1.5rem;
+  background-color: #fff;
+  border-radius: 100%;
+  color: var(--blue);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  
 }
 @media (max-width: 768px) {
   .contact-details p {
