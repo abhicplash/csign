@@ -6,8 +6,7 @@ import "./Contact.css";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -61,8 +60,7 @@ const Contact = () => {
                 <FaFacebook  className="cn-s-icon"/>
                 <FaInstagram className="cn-s-icon"/>
                 <FaXTwitter className="cn-s-icon"/>
-                <FaYoutube className="cn-s-icon"/>
-                <FaTelegram className="cn-s-icon"/>
+                <FaLinkedin className="cn-s-icon"/>
               </div>
             </div>
           </div>

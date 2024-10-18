@@ -61,10 +61,16 @@
   width: 80%;
   color: var(--black);
 }
-/* .servicename,
-.servicedetails {
-  color: var(--black);
-} */
+.service-enquiry-btn {
+  width: 10rem;
+  height: 2rem;
+  font-family: inherit;
+  background-color: var(--blue);
+  border-color: var(--blue);
+  outline-color: var(--blue);
+  color: var(--lightblue);
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .para-why {
     width: 97%;

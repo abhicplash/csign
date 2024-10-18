@@ -22,7 +22,7 @@ const AboutMain = () => {
         </p>
         <div className="ab-btnwrapper">
           <button className="ab-btn">Get started</button>
-          <button className="ab-btn">Request a Demo</button>
+          <button className="ab-btn">Request an Enquiry</button>
         </div>
       </div>
     </div>

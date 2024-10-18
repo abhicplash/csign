@@ -34,7 +34,7 @@ const HomeAbout = () => {
         </div>
         <div className="ha-btnwrapper">
           <Link to={"/contact"}>
-            <button className="ha-btn">Request a Demo</button>
+            <button className="ha-btn">Request an Enquiry</button>
           </Link>
         </div>
       </div>

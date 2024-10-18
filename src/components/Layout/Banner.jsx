@@ -27,7 +27,7 @@ const Banner = () => {
             <button className="banner-btn">Get started</button>
           </Link>
           <Link to={"/contact"}>
-            <button className="banner-btn">Request a Demo</button>
+            <button className="banner-btn">Request an Enquiry</button>
           </Link>
         </div>
       </div>

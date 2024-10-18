@@ -63,7 +63,9 @@ const HomeServices = () => {
           </div>
         )}
       </div>
-      <Link to={"/services"}>Explore More</Link>
+      <Link to={"/services"}>
+        <button className="service-enquiry-btn">Explore More</button>
+      </Link>
     </div>
   );
 };

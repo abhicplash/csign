@@ -5,11 +5,14 @@ import Contact from "./components/Pages/Contact";
 import About from "./components/Pages/About";
 import Services from "./components/Pages/Services";
 import SingleService from "./components/Pages/SingleService";
+// import UpTop from "./components/Layout/UpTop";
+import Reload from "./components/Layout/Reload";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Reload  />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
