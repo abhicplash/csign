@@ -10,7 +10,10 @@ const AboutMain = () => {
         <img src={abmainimg} alt="" className="imgabmain" />
         <div className="abDetails-wrapper">
           <span className="headingabmain">
-            Welcome to <b> Creative Signature </b>
+            Welcome to{" "}
+            <b>
+              {" "}<br /> Creative Signature{" "}
+            </b>
             Advertisement
           </span>
           <p className="paraabmain">

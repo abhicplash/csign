@@ -11,6 +11,9 @@
   width: 17rem;
   border-radius: 8px;
 }
+.serviceheadingabmain{
+  width: 1rem;
+}
 @media (max-width: 768px) {
   .ServiceMain-container {
     flex-direction: column;
