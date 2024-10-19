@@ -1,6 +1,21 @@
+.wrapper-abvalues {
+  text-align: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-abvalues p {
+  width: 70%;
+  color: var(--black);
+}
+.wrapper-abvalues h1 {
+  font-weight: 300;
+  color: var(--blue);
+}
 .AboutoutValues-container {
   width: 100%;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +40,7 @@
   width: 40%;
 }
 .AboutoutValues-detailswrapper {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   display: flex;
   flex-direction: column;
   /* border: 1px solid; */
@@ -54,6 +69,9 @@
 }
 @media (max-width: 768px) {
   .AboutoutValues-imgwrapper {
+    width: 100%;
+  }
+  .wrapper-abvalues p {
     width: 100%;
   }
   .about-values-card {

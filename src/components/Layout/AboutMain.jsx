@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutMain.css";
 import abmainimg from "../../assets/about/abutmainimg.jpg";
 import missionimg from "../../assets/about/missionimg.jpg";
+import { Link } from "react-router-dom";
 
 const AboutMain = () => {
   return (
@@ -45,7 +46,9 @@ const AboutMain = () => {
           </p>
           {/* <div className="ab-btnwrapper"> */}
           {/* <button className="ab-btn">Get started</button> */}
-          <button className="ab-btn">Request an Enquiry</button>
+          <Link to={"/contact"}>
+            <button className="ab-btn">Request an Enquiry</button>
+          </Link>
           {/* </div> */}
         </div>
       </div>
