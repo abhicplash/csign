@@ -13,7 +13,7 @@ const About = () => {
       <AboutMain />
       <AboutService />
       {/* <ClientsOP /> */}
-      {/* <AboutWhy/> */}
+      <AboutWhy/>
     </Layout>
   );
 };
