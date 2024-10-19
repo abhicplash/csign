@@ -5,6 +5,8 @@ import AboutMain from "../Layout/AboutMain";
 import AboutService from "../Layout/AboutService";
 import ClientsOP from "../Layout/ClientsOP";
 import AboutWhy from "../Layout/AboutWhy";
+import AboutConnect from "../Layout/AboutConnect";
+import AboutoutValues from "../Layout/AboutoutValues";
 
 const About = () => {
   return (
@@ -13,7 +15,9 @@ const About = () => {
       <AboutMain />
       <AboutService />
       {/* <ClientsOP /> */}
-      <AboutWhy/>
+      {/* <AboutWhy/> */}
+      <AboutoutValues />
+      <AboutConnect />
     </Layout>
   );
 };

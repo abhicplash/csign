@@ -1,0 +1,78 @@
+.AboutoutValues-container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding: 2rem 0;
+}
+.AboutoutValues-imgwrapper h1 {
+  /* width: 1.2rem; */
+  font-weight: 300;
+  color: var(--blue);
+}
+.carddatahead {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+.carddatapara {
+  font-size: 0.9rem;
+}
+.AboutoutValues-imgwrapper {
+  /* border: 1px solid; */
+  width: 40%;
+}
+.AboutoutValues-detailswrapper {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+  /* height: 50vh; */
+  justify-content: flex-end;
+  /* align-items: end; */
+  gap: 0.5rem;
+  /* padding: 3rem 0; */
+}
+.about-values-card {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  /* box-shadow: 1px 1px 10px 1px var(--blue); */
+  /* border: 1px solid; */
+  border-radius: 10px;
+  gap: 5px;
+  /* background-color: var(--lightblue); */
+}
+.carddatapara {
+  text-align: justify;
+}
+.aboutvaluesimg {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .AboutoutValues-imgwrapper {
+    width: 100%;
+  }
+  .about-values-card {
+    width: 16rem;
+  }
+  .aboutvaluesimg {
+    width: 17rem;
+  }
+  .AboutoutValues-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .AboutoutValues-detailswrapper {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .carddatapara {
+    text-align: center;
+  }
+}
