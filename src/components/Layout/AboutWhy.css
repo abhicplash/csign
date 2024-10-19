@@ -1,0 +1,51 @@
+.opinionCard {
+  display: flex;
+  flex-direction: column;
+  width: 18.5rem;
+  height: 13rem;
+  /* text-align: center; */
+  /* border: 1px solid; */
+  /* justify-content: center;
+    align-items: center; */
+    
+  gap: 0.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0.1px -0.5px 4px 1px var(--lightblue);
+  /* background-color: var(--lightblue); */
+  background: linear-gradient(to bottom, white, var(--lightblue));
+  border-bottom: 10px solid var(--blue);
+}
+.abwhy-erapper{
+    width: 100vh;
+}
+.say {
+  color: var(--black);
+  font-weight: 400;
+  /* text-transform: capitalize; */
+  text-align: center;
+}
+
+.abwhy-erapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+.OPname {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--blue);
+  text-align: end;
+}
+.place {
+  font-weight: 300;
+  text-align: end;
+}
+@media (max-width: 768px) {
+  .opinionCard {
+    width: 13rem;
+  }
+}

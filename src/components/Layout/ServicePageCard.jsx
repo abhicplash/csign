@@ -5,20 +5,20 @@ import { CgArrowTopRightO } from "react-icons/cg";
 
 const ServicePageCard = ({ serviceName, image, desc, id }) => {
   return (
-    <div className="card-wrapper">
-      <span className="servicemain-card-head">
-        {serviceName}
-      </span>
-      <img className="servicemain-card-img" src={image} alt="" />
-      <span className="servicemain-card-para">
-        {desc}
-      </span>
-      <div className="forward">
-        <Link to={"/single/" + id}>
-          <CgArrowTopRightO />
-        </Link>
+    <Link to={"/single/" + id}>
+      <div className="card-wrapper">
+        <span className="servicemain-card-head">
+          {serviceName}
+        </span>
+        <img className="servicemain-card-img" src={image} alt="" />
+        <span className="servicemain-card-para">
+          {desc}
+        </span>
+        <div className="forward">
+          {/* <CgArrowTopRightO /> */}
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

@@ -3,6 +3,7 @@ import Layout from "../Layout/Layout";
 import "../../App.css";
 import ServiceMain from "../Layout/ServiceMain";
 import ServiceList from "../Layout/ServiceList";
+import WhyChoose from "../Layout/WhyChoose";
 
 const Services = () => {
   return (
@@ -10,8 +11,9 @@ const Services = () => {
       <div className="servicepage-top">
         <h1>Services</h1>
       </div>
-      <ServiceMain/>
-      <ServiceList/>
+      <ServiceMain />
+      <ServiceList />
+      <WhyChoose />
     </Layout>
   );
 };

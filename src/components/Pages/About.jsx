@@ -4,6 +4,7 @@ import AboutBanner from "../Layout/AboutBanner";
 import AboutMain from "../Layout/AboutMain";
 import AboutService from "../Layout/AboutService";
 import ClientsOP from "../Layout/ClientsOP";
+import AboutWhy from "../Layout/AboutWhy";
 
 const About = () => {
   return (
@@ -11,7 +12,8 @@ const About = () => {
       <AboutBanner />
       <AboutMain />
       <AboutService />
-      <ClientsOP />
+      {/* <ClientsOP /> */}
+      {/* <AboutWhy/> */}
     </Layout>
   );
 };

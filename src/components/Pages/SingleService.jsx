@@ -2,7 +2,7 @@ import React from "react";
 import "./SingleService.css";
 import Layout from "../Layout/Layout";
 import { fullServiceListDetailed } from "../../utils/DetailedserviceList";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const SingleService = () => {
   const { id } = useParams();
@@ -27,8 +27,10 @@ const SingleService = () => {
                   {list.description}
                 </span>
                 <div className="ab-btnwrapper">
-                  <button className="ab-btn">Get started</button>
-                  <button className="ab-btn">Request an Enquiry</button>
+                  {/* <button className="ab-btn">Get started</button> */}
+                  <Link to={"/contact"}>
+                    <button className="ab-btn">Request an Enquiry</button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -11,9 +11,20 @@
   position: relative;
   /* text-align: justify; */
 }
-.card-wrapper:hover{
-    background-color: var(--blue);
-    color: var(--white);
+a {
+  text-decoration: none;
+}
+.card-wrapper:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.card-wrapper:hover .servicemain-card-head {
+  color: var(--white);
+  transition-duration: 1s;
+}
+.card-wrapper:hover .servicemain-card-para {
+  color: var(--white);
+  transition-duration: 1.5s;
 }
 .servicemain-card-img {
   height: 12.5rem;
@@ -25,9 +36,13 @@
   font-size: 1.4rem;
   text-transform: capitalize;
   font-weight: 500;
+  color: var(--black);
+
+  /* color: var(--blue); */
 }
 .servicemain-card-para {
   font-size: 0.8rem;
+  color: var(--black);
 }
 
 .forward {

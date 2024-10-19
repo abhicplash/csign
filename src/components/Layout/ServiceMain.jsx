@@ -1,6 +1,7 @@
 import React from "react";
 import "./ServiceMain.css";
 import servicemain from "../../assets/services/main.jpg";
+import { Link } from "react-router-dom";
 
 const ServiceMain = () => {
   return (
@@ -21,8 +22,10 @@ const ServiceMain = () => {
           solutions for you. Here’s a look at our key services:
         </p>
         <div className="ab-btnwrapper">
-          <button className="ab-btn">Get started</button>
-          <button className="ab-btn">Request an Enquiry</button>
+          {/* <button className="ab-btn">Get started</button> */}
+          <Link to={"/contact"}>
+            <button className="ab-btn">Request an Enquiry</button>
+          </Link>
         </div>
       </div>
     </div>

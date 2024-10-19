@@ -1,0 +1,45 @@
+.WhyChoose-container {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, white, var(--lightblue));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.whyimg {
+  width: 40%;
+}
+.whydetails {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border: 1px solid; */
+  width: 40%;
+}
+.whydetails h1 {
+  text-transform: capitalize;
+  font-weight: 300;
+  color: var(--blue);
+}
+.whydetails p {
+    text-align: justify;
+  color: var(--black);
+  width: 90%;
+}
+@media (max-width: 768px) {
+  .WhyChoose-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .whydetails {
+    width: 100%;
+  }
+  .whydetails p {
+    width: 100%;
+  }
+  .whyimg {
+    width: 17rem;
+    border-radius: 3px;
+  }
+}
