@@ -68,12 +68,12 @@
   gap: 0.5rem;
 }
 .iconmb {
-  font-size: 2rem;
-  border-radius: 100%;
-  padding: 2px;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: 7px;
   background-color: #e5e7f9ed;
   color: var(--blue);
-  border: 3.5px solid var(--blue);
+  border: 3px solid var(--blue);
   cursor: pointer;
 }
 @media (max-width: 768px) {
