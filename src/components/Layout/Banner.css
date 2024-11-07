@@ -3,7 +3,7 @@
   min-height: 90vh;
   display: flex;
   flex-direction: row-reverse;
-  background-color: #fff;
+  background-color: var(--white);
   gap: 5%;
   align-items: center;
   /* justify-content: space-between; */
