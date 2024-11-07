@@ -6,10 +6,10 @@
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  /* gap: 5rem; */
 }
 .laphaboutimg {
-  width: 35rem;
+  width: 85%;
   height: 32rem;
   border-radius: 100%;
   box-shadow: 15px -15px 1px 1px #e5e7f96e;
@@ -19,6 +19,8 @@
   flex-direction: column;
   color: var(--white);
   text-transform: capitalize;
+  width: 50%;
+  /* border: 1px solid; */
 }
 .steps {
   display: flex;
@@ -67,7 +69,7 @@
   color: var(--white);
 }
 .HA-details-wrapper p {
-  width: 30rem;
+  width: 80%;
 }
 
 @media (max-width: 768px) {
@@ -76,6 +78,7 @@
   }
   .HA-details-wrapper {
     text-align: center;
+    width: 100%;
   }
   .ha-btnwrapper {
     flex-direction: column;

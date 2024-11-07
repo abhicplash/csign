@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="banner-container">
-      <div className="img-wrapper">
+      {/* <div className="img-wrapper"> */}
         <img src={banner} alt="" className="banner-img" />
-      </div>
+      {/* </div> */}
       <div className="banner-details">
         <span className="heading">
           Welcome to <br /> <b>Creative Signature</b> <br />
