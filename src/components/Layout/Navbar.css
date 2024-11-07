@@ -4,6 +4,7 @@
 .navbar-container {
   width: 100%;
   /* height: 8vh; */
+  background-color: #e3e4ee8a;
   display: flex;
   align-items: center;
   justify-content: space-around;
